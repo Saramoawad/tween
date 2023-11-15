@@ -1,0 +1,160 @@
+body{
+    font-family: 'Roboto', sans-serif; 
+}
+nav{
+    height: 78px;
+}
+nav ul li a:hover{
+    background-color:rgb(142, 183, 82) ;
+    
+}
+header{
+    height: 100vh;
+    background-image: url(../images/slide/microsoft-edge-FAaz8lkinzs-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    animation: slider 8s  infinite;
+    animation-timing-function:linear;
+    animation-direction: alternate;
+}
+@keyframes slider{
+    0%{
+        background-image: url(../images/slide/surface-1x5jnhtlp3Y-unsplash.jpg);
+
+    }
+    50%{
+        background-image: url(../images/slide/surface-71_s6RDJpGc-unsplash.jpg);
+    }
+     100%{
+        background-image: url(../images/slide/microsoft-edge-FAaz8lkinzs-unsplash.jpg);
+    } 
+}
+.header-layer{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.413);
+}
+.header-layer .container{
+    height: 100vh;
+  
+}
+.header-layer .container p{
+    color: #fff;
+    bottom:18%;
+    font-size: 50px;
+    line-height: 1.5;
+}
+/* end header */
+/* start about */
+
+ p{
+    /* text-align: justify; */
+    color: rgb(108, 117, 125);
+}
+h2,
+h3,
+h4,
+h5{
+    font-family: 'Karla', sans-serif;
+    color: rgb(0, 160, 93);
+}
+/* end about */
+/* start our work */
+
+.work-items{
+    border: 1px solid black;
+   height: 100vh;
+}
+.ourwork p{
+    font-size: 20px;
+    color: black;
+}
+/* end our work */
+/* start pricing */
+.pricing{
+    background-image: url(../images/maria-stewart-p4tj0g-_aMM-unsplash.jpg);
+    
+    background-size: contain;
+    background-position: center;
+}
+.pricing-layer{
+    /* background-color: rgba(0, 0, 0, 0.562); */
+    /* height: 100vh; */
+    z-index: 2;
+}
+.pricing-items{
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(18, 130, 18, 0.444);
+    
+   
+}
+.pricing-items h4{
+    width: 50%;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    
+}
+.pricing-items .right
+{
+    color: rgb(10, 9, 9);
+    font-size: 25px;
+    
+}
+.pricing-ul{
+    margin-left: 20%;
+    font-size: 20px;
+    line-height: 2.5;
+}
+/* end pricing */
+
+/* start contact */
+.format{
+    margin-left: 8%;
+    background-image: linear-gradient(to top, #96fbc4 0%, #f9f586 100%);
+    border-radius: 20px;
+}
+form{
+    /* border: 1px solid; */
+    border-radius: 20px;
+    
+}
+.btn {
+    background: #0ba360;
+    background-image: -webkit-linear-gradient(top, #0ba360, #86f7d1);
+    background-image: -moz-linear-gradient(top, #0ba360, #86f7d1);
+    background-image: -ms-linear-gradient(top, #0ba360, #86f7d1);
+    background-image: -o-linear-gradient(top, #0ba360, #86f7d1);
+    background-image: linear-gradient(to bottom, #0ba360, #86f7d1);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    text-shadow: 1px 1px 3px #666666;
+    font-family: Arial;
+    color: #000000;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #a9d961;
+    background-image: -webkit-linear-gradient(top, #a9d961, #a9d961);
+    background-image: -moz-linear-gradient(top, #a9d961, #a9d961);
+    background-image: -ms-linear-gradient(top, #a9d961, #a9d961);
+    background-image: -o-linear-gradient(top, #a9d961, #a9d961);
+    background-image: linear-gradient(to bottom, #a9d961, #a9d961);
+    text-decoration: none;
+  }
+/* end contact */
+/* start footer */
+footer{
+    height: 200px;
+    margin-top: 10%;
+    background-color: #000000;
+}
+footer i:hover{
+    color: #0ba360;
+}
+/* end footer */
